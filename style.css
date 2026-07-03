@@ -1,0 +1,56 @@
+body {
+    background-color: black;
+    color: white;
+}
+#scoreboard {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.name {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.score {
+    color: red;
+    background-color: aqua;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 100px;
+    padding-top: 30px;
+    border-radius: 10px;
+
+}
+.points {
+    display: flex;
+    padding: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.home-points {
+    color: white;
+    margin: 10px;
+    background-color:magenta ;
+    width: 60px;
+    height: 60px;
+    padding-top: 5px;
+    border-radius: 5px;
+}
+.guest-points {
+    color: white;
+    margin: 10px;
+    background-color:magenta ;
+    width: 60px;
+    height: 60px;
+    padding-top: 5px;
+    border-radius: 5px;
+}
+#reset-btn {
+    color: white;
+    background-color: red;
+    width: 100px;
+    height: 50px;
+    display: block;
+    margin: 10px auto;
+    border-radius: 5px;
+}
